@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592644077 source:/home/pi/Projects/SDL-Game/main.cpp
+	"main.h"
+
+1592643985 /home/pi/Projects/SDL-Game/main.h
+
