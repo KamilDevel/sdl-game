@@ -1,6 +1,77 @@
 # depslib dependency file v1.0
-1592644077 source:/home/pi/Projects/SDL-Game/main.cpp
+1592664979 source:/home/pi/Projects/SDL-Game/main.cpp
 	"main.h"
+	"Game.h"
 
-1592643985 /home/pi/Projects/SDL-Game/main.h
+1592645257 /home/pi/Projects/SDL-Game/main.h
+
+1592761891 source:/home/pi/Projects/SDL-Game/Game.cpp
+	"Game.h"
+	"Components.h"
+	"Vector2D.h"
+
+1592743865 /home/pi/Projects/SDL-Game/Game.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1592743393 source:/home/pi/Projects/SDL-Game/TextureManager.cpp
+	<SDL2/SDL.h>
+	"TextureManager.h"
+	"Game.h"
+
+1592741337 /home/pi/Projects/SDL-Game/TextureManager.h
+	"Game.h"
+
+1592675241 /home/pi/Projects/SDL-Game/GameObject.h
+	"Game.h"
+
+1592744107 source:/home/pi/Projects/SDL-Game/GameObject.cpp
+	"GameObject.h"
+	"TextureManager.h"
+
+1592741835 /home/pi/Projects/SDL-Game/ECS.h
+	<iostream>
+	<vector>
+	<memory>
+	<algorithm>
+	<bitset>
+	<array>
+
+1592761439 /home/pi/Projects/SDL-Game/Components.h
+	"ECS.h"
+	"PositionComponent.h"
+	"TransformComponent.h"
+	"SpriteComponent.h"
+	"KeyboardController.h"
+
+1592725633 /home/pi/Projects/SDL-Game/Ecs.h
+	<iostream>
+	<vector>
+	<memory>
+	<algorithm>
+	<bitset>
+	<array>
+
+1592759874 /home/pi/Projects/SDL-Game/PositionComponent.h
+	"Components.h"
+
+1592758689 /home/pi/Projects/SDL-Game/SpriteComponent.h
+	<SDL2/SDL.h>
+	"TextureManager.h"
+	"Components.h"
+
+1592759487 /home/pi/Projects/SDL-Game/TransformComponent.h
+	"Components.h"
+	"Vector2D.h"
+
+1592757322 source:/home/pi/Projects/SDL-Game/Vector2D.cpp
+	<iostream>
+	"Vector2D.h"
+
+1592757156 /home/pi/Projects/SDL-Game/Vector2D.h
+
+1592761548 /home/pi/Projects/SDL-Game/KeyboardController.h
+	"Game.h"
+	"ECS.h"
+	"Components.h"
 

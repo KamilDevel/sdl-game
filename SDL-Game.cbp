@@ -5,6 +5,7 @@
 		<Option title="SDL-Game" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
+		<Option virtualFolders="Game/;Game/Engine/;Game/Engine/Ecs/;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/SDL-Game" prefix_auto="1" extension_auto="1" />
@@ -35,7 +36,40 @@
 		<Linker>
 			<Add option="`sdl2-config --libs`" />
 		</Linker>
+		<Unit filename="Components.h">
+			<Option virtualFolder="Game/Engine/Ecs/" />
+		</Unit>
+		<Unit filename="ECS.h">
+			<Option virtualFolder="Game/Engine/Ecs/" />
+		</Unit>
+		<Unit filename="Game.cpp">
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="Game.h">
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="GameObject.cpp">
+			<Option virtualFolder="Game/Engine/" />
+		</Unit>
+		<Unit filename="GameObject.h">
+			<Option virtualFolder="Game/Engine/" />
+		</Unit>
+		<Unit filename="PositionComponent.h">
+			<Option virtualFolder="Game/Engine/Ecs/" />
+		</Unit>
+		<Unit filename="README.md" />
+		<Unit filename="SpriteComponent.h">
+			<Option virtualFolder="Game/Engine/Ecs/" />
+		</Unit>
+		<Unit filename="TextureManager.cpp">
+			<Option virtualFolder="Game/Engine/" />
+		</Unit>
+		<Unit filename="TextureManager.h">
+			<Option virtualFolder="Game/Engine/" />
+		</Unit>
+		<Unit filename="assets/grass.png" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
